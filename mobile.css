@@ -1,0 +1,44 @@
+.navbar {
+    display: block;
+    text-align: center;
+    padding: 0 2.5rem 0 2.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar ul li a {
+    text-align: left;
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0rem 0.5rem 0 0;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s ease-in;
+}
+
+.btn {
+    margin: 0.5rem;
+    margin-top: 2rem;
+}
+
+#about img {
+    display: none;
+}
+
+#about .container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
+}
+
+#skills .specialize {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.skillset {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+
+.contact {
+    grid-template-columns: repeat(1, 1fr);
+}
