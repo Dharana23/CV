@@ -1,0 +1,246 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* MAIN STYLING */
+
+body {
+    font-family: "Dosis", sans-serif;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* UTILITIES */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    margin: 2rem;
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.underline {
+    margin-top: rem;
+    height: 2px;
+    width: 3rem;
+    background: steelblue;
+    display: block;
+    margin: 0.5rem auto 1rem auto;
+}
+
+.card {
+    padding: 4rem;
+    background-color: #eee;
+}
+
+.card-dark {
+    background-color: #ddd;
+}
+
+.lead {
+    font-size: 2rem;
+}
+
+.bg-dark {
+    background-color: #ddd;
+}
+
+
+/* Nav Bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #000;
+    padding: 0 5rem 0 5rem;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.logo {
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0rem 1rem 0 0;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    padding: 1rem;
+    margin: 0.5rem 1rem 0 0;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s ease-in;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: #fff;
+    border-color: #fff;
+}
+
+.main-header {
+    background: #333 url(./img/background.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+
+.main-header #home .profile-image img {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+.main-header #home .profile-text h2 {
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+#about {
+    background: #ddd;
+    height: 100vh;
+    padding-top: 7%;
+}
+
+#about img {
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+#about .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#about p {
+    font-size: 1.5rem;
+}
+
+#skills h2 {
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+
+#skills .specialize {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#skills .specialize .fas {
+    margin-bottom: 2rem;
+}
+
+.skillset {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+
+.skillset .progress {
+    overflow: hidden;
+    height: 20px;
+    background: #ccc;
+    border-radius: 5px;
+    margin-bottom: 0.6rem;
+    margin-top: 0.2rem;
+}
+
+.skillset .progress div {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: steelblue;
+}
+
+#projects {
+    background-color: #ddd;
+    padding: 3rem;
+    text-align: center;
+}
+
+#projects p {
+    margin-top: 1rem;
+}
+
+.socials a i {
+    color: #000;
+    transition: all 0.5s ease-in;
+}
+
+.socials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.socials a i:hover {
+    color: steelblue;
+    transform: scale(2);
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact i {
+    margin-bottom: 2rem;
+}
+
+.copyright {
+    color: #fff;
+    background-color: #333;
+    padding: 0.7rem;
+}
