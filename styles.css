@@ -208,7 +208,7 @@ ul {
     margin-top: 1rem;
 }
 
-.socials a i {
+.socials a {
     color: #000;
     transition: all 0.5s ease-in;
 }
@@ -222,7 +222,7 @@ ul {
     margin: 4rem 0;
 }
 
-.socials a i:hover {
+.socials a :hover {
     color: steelblue;
     transform: scale(2);
 }
