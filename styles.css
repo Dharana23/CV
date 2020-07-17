@@ -222,7 +222,7 @@ ul {
     margin: 4rem 0;
 }
 
-.socials a :hover {
+.socials a:hover {
     color: steelblue;
     transform: scale(2);
 }
